@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+my_invoicing.access_invoicing_manager,access_invoicing,my_invoicing.model_my_invoicing,my_invoicing.group_managers,1,1,1,1
+my_invoicing.access_invoicing_user,access_invoicing,my_invoicing.model_my_invoicing,my_invoicing.group_users,1,0,0,0
+
+my_invoicing.access_customer_customer_manager,access_customer_customer,my_invoicing.model_customer_customer,my_invoicing.group_managers,1,1,1,1
+my_invoicing.access_customer_customer_user,access_customer_customer,my_invoicing.model_customer_customer,my_invoicing.group_users,1,0,0,0
+
+my_invoicing.access_res_partner_manager,access_res_partner,my_invoicing.model_res_partner,my_invoicing.group_managers,1,1,1,1
+my_invoicing.access_res_partner_user,access_res_partner,my_invoicing.model_res_partner,my_invoicing.group_users,1,0,0,0
+
+my_invoicing.access_order_line_manager,access_order,my_invoicing.model_order_line,my_invoicing.group_managers,1,1,1,1
+my_invoicing.access_order_line_user,access_order,my_invoicing.model_order_line,my_invoicing.group_users,1,0,0,0
+
